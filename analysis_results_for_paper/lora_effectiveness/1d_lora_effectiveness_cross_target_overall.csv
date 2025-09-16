@@ -1,0 +1,6 @@
+,Metric,Value
+0,Phase 1 Average F1,0.3978 ± 0.1443
+1,Phase 3 Average F1,0.2965 ± 0.1332
+2,Improvement,-0.1013
+3,Improvement %,-25.48%
+4,Verdict,🔴 Phase 1 (Base) performs BETTER than Phase 3 by 0.1013 points

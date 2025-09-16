@@ -1,0 +1,9 @@
+,phase,model,model_size,model_params,model_category,avg_best_f1,std_f1,pair_count,formatted_performance,size_performance_correlation,correlation_interpretation
+0,phase1,llama3_8b,8B,8,Medium,0.4874,0.16151846953212504,6,0.4874 ± 0.1615 (across 6 transfer pairs),0.43820491449978505,Moderate correlation
+1,phase1,mistral_24b,24B,24,Large,0.48641666666666666,0.14133448859590736,6,0.4864 ± 0.1413 (across 6 transfer pairs),0.43820491449978505,Moderate correlation
+2,phase1,mistral_7b,7B,7,Medium,0.4691666666666667,0.07909747572879092,6,0.4692 ± 0.0791 (across 6 transfer pairs),0.43820491449978505,Moderate correlation
+3,phase1,phi,3B,3,Small,0.48055000000000003,0.08271821443914275,6,0.4806 ± 0.0827 (across 6 transfer pairs),0.43820491449978505,Moderate correlation
+4,phase3,llama3_8b,8B,8,Medium,0.35528333333333334,0.15219988720976987,6,0.3553 ± 0.1522 (across 6 transfer pairs),-0.5206546790258698,Strong negative: Smaller models transfer better
+5,phase3,mistral_24b,24B,24,Large,0.3048,0.15837252286934117,6,0.3048 ± 0.1584 (across 6 transfer pairs),-0.5206546790258698,Strong negative: Smaller models transfer better
+6,phase3,mistral_7b,7B,7,Medium,0.30851666666666666,0.15616846566021797,6,0.3085 ± 0.1562 (across 6 transfer pairs),-0.5206546790258698,Strong negative: Smaller models transfer better
+7,phase3,phi,3B,3,Small,0.33125,0.1467208335581556,6,0.3312 ± 0.1467 (across 6 transfer pairs),-0.5206546790258698,Strong negative: Smaller models transfer better

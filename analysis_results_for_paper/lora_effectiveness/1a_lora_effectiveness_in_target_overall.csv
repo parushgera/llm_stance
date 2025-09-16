@@ -1,0 +1,6 @@
+,Metric,Value
+0,Phase 1 Average F1,0.5379 ± 0.1775
+1,Phase 3 Average F1,0.7993 ± 0.0956
+2,Improvement,+0.2614
+3,Improvement %,+48.60%
+4,Verdict,🟢 Phase 3 (LoRA) performs BETTER than Phase 1 by 0.2614 points

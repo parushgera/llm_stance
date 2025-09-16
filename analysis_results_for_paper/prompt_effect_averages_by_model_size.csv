@@ -1,0 +1,9 @@
+,,improvement,improvement,improvement,improvement_pct,improvement_pct,phase1_mean_f1,phase3_mean_f1
+,,mean,std,count,mean,std,mean,mean
+experiment_type,model_category,,,,,,,
+cross_target,Large,-0.0411,0.1005,4,-7.4044,21.787,0.3164,0.2753
+cross_target,Medium,-0.1145,0.0151,4,-27.634,1.6352,0.4132,0.2987
+cross_target,Small,-0.1352,0.0119,4,-30.129,1.944,0.4484,0.3131
+in_target,Large,0.2379,0.0864,6,43.7224,22.7102,0.5826,0.8205
+in_target,Medium,0.2592,0.0911,6,51.5733,25.2887,0.5329,0.7921
+in_target,Small,0.2894,0.0757,6,59.8222,23.1222,0.5032,0.7926

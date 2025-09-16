@@ -1,0 +1,7 @@
+prompt_type,prompt_complexity,f1_score,improvement_formatted
+cot,3,0.3612883333333332,+0.3613
+cot_knowledge,5,0.1560809523809522,+0.1561
+cot_knowledge_few_shot,6,0.08656547619047616,+0.0866
+few_shot,4,0.09886309523809533,+0.0989
+knowledge_infused,2,0.14420476190476195,+0.1442
+vanilla,1,0.36514000000000013,+0.3651

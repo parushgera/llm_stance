@@ -1,0 +1,9 @@
+# ANALYSIS METADATA
+# Size_Improvement_Correlation: -0.8007239012616302
+# Correlation_Interpretation: Smaller models benefit MORE from LoRA
+
+,model_params,model_category,improvement_mean,improvement_std,improvement_pct_mean,model_name,improvement_formatted,improvement_pct_formatted
+0,3,Small,0.251,0.133,52.4539,phi,+0.2510,+52.45%
+1,7,Medium,0.2327,0.1038,41.2493,mistral_7b,+0.2327,+41.25%
+2,8,Medium,0.1736,0.09,30.5168,llama3_8b,+0.1736,+30.52%
+3,24,Large,0.1576,0.103,25.0623,mistral_24b,+0.1576,+25.06%

@@ -1,0 +1,14 @@
+#!/bin/bash -l
+#SBATCH -o std_out_main_cross_target_wtwt_fix
+#SBATCH -e std_err_main_cross_target_wtwt_fix
+#SBATCH -p SIPEIE23
+#SBATCH -w GPU48
+#SBATCH --mem=200GB
+#SBATCH --gres=gpu:1
+#SBATCH --mail-user=parush@usf.edu # email for notifications
+#SBATCH --mail-type=BEGIN,END,FAIL,REQUEUE # events for notifications
+
+source activate llm_stance
+python /home/p/parush/llm_stance/main_cross_target_v2.py 
+
+

@@ -1,0 +1,913 @@
+experiment_type,model,model_size,model_category,model_params,prompt_type,phase,f1_score
+SD,mistral_7b,7B,Medium,7,cot_knowledge,Base (Non Fine-Tuned),0.575
+SD,mistral_7b,7B,Medium,7,cot_knowledge,Base (Non Fine-Tuned),0.1311
+SD,mistral_7b,7B,Medium,7,cot_knowledge,Base (Non Fine-Tuned),0.5218
+SD,mistral_7b,7B,Medium,7,cot_knowledge,Base (Non Fine-Tuned),0.3874
+SD,mistral_7b,7B,Medium,7,cot_knowledge,Base (Non Fine-Tuned),0.7549
+SD,mistral_7b,7B,Medium,7,cot_knowledge,Base (Non Fine-Tuned),0.7004
+SD,mistral_7b,7B,Medium,7,cot_knowledge,Base (Non Fine-Tuned),0.5137
+SD,mistral_7b,7B,Medium,7,cot_knowledge,Base (Non Fine-Tuned),0.8091
+SD,mistral_7b,7B,Medium,7,cot_knowledge,Base (Non Fine-Tuned),0.6312
+SD,mistral_7b,7B,Medium,7,cot_knowledge,Base (Non Fine-Tuned),0.2422
+SD,mistral_7b,7B,Medium,7,cot_knowledge,Base (Non Fine-Tuned),0.5996
+SD,mistral_7b,7B,Medium,7,cot_knowledge,Base (Non Fine-Tuned),0.4547
+SD,mistral_7b,7B,Medium,7,cot_knowledge,Base (Non Fine-Tuned),0.6296
+SD,mistral_7b,7B,Medium,7,cot_knowledge,Base (Non Fine-Tuned),0.4903
+SD,mistral_7b,7B,Medium,7,cot_knowledge,Base (Non Fine-Tuned),0.601
+SD,mistral_7b,7B,Medium,7,cot_knowledge,LoRA Fine-Tuned,0.8038
+SD,mistral_7b,7B,Medium,7,cot_knowledge,LoRA Fine-Tuned,0.8317
+SD,mistral_7b,7B,Medium,7,cot_knowledge,LoRA Fine-Tuned,0.7168
+SD,mistral_7b,7B,Medium,7,cot_knowledge,LoRA Fine-Tuned,0.9193
+SD,mistral_7b,7B,Medium,7,cot_knowledge,LoRA Fine-Tuned,0.9505
+SD,mistral_7b,7B,Medium,7,cot_knowledge,LoRA Fine-Tuned,0.8264
+SD,mistral_7b,7B,Medium,7,cot_knowledge,LoRA Fine-Tuned,0.8644
+SD,mistral_7b,7B,Medium,7,cot_knowledge,LoRA Fine-Tuned,0.8622
+SD,mistral_7b,7B,Medium,7,cot_knowledge,LoRA Fine-Tuned,0.8708
+SD,mistral_7b,7B,Medium,7,cot_knowledge,LoRA Fine-Tuned,0.7728
+SD,mistral_7b,7B,Medium,7,cot_knowledge,LoRA Fine-Tuned,0.6448
+SD,mistral_7b,7B,Medium,7,cot_knowledge,LoRA Fine-Tuned,0.8146
+SD,mistral_7b,7B,Medium,7,cot_knowledge,LoRA Fine-Tuned,0.8648
+SD,mistral_7b,7B,Medium,7,cot_knowledge,LoRA Fine-Tuned,0.8314
+SD,mistral_7b,7B,Medium,7,cot_knowledge,LoRA Fine-Tuned,0.813
+SD,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.6894
+SD,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.4328
+SD,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.5715
+SD,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.4117
+SD,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.6212
+SD,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.7649
+SD,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.6356
+SD,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.6839
+SD,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.5639
+SD,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.6808
+SD,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.7336
+SD,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.4983
+SD,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.6488
+SD,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.8114
+SD,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.5761
+SD,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,LoRA Fine-Tuned,0.8278
+SD,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,LoRA Fine-Tuned,0.8452
+SD,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,LoRA Fine-Tuned,0.5497
+SD,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,LoRA Fine-Tuned,0.9059
+SD,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,LoRA Fine-Tuned,0.9026
+SD,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,LoRA Fine-Tuned,0.794
+SD,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,LoRA Fine-Tuned,0.8248
+SD,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,LoRA Fine-Tuned,0.8703
+SD,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,LoRA Fine-Tuned,0.8851
+SD,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,LoRA Fine-Tuned,0.7207
+SD,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,LoRA Fine-Tuned,0.859
+SD,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,LoRA Fine-Tuned,0.8671
+SD,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,LoRA Fine-Tuned,0.7093
+SD,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,LoRA Fine-Tuned,0.8524
+SD,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,LoRA Fine-Tuned,0.7943
+SD,mistral_7b,7B,Medium,7,cot,Base (Non Fine-Tuned),0.7261
+SD,mistral_7b,7B,Medium,7,cot,Base (Non Fine-Tuned),0.129
+SD,mistral_7b,7B,Medium,7,cot,Base (Non Fine-Tuned),0.5328
+SD,mistral_7b,7B,Medium,7,cot,Base (Non Fine-Tuned),0.3863
+SD,mistral_7b,7B,Medium,7,cot,Base (Non Fine-Tuned),0.4124
+SD,mistral_7b,7B,Medium,7,cot,Base (Non Fine-Tuned),0.207
+SD,mistral_7b,7B,Medium,7,cot,Base (Non Fine-Tuned),0.4678
+SD,mistral_7b,7B,Medium,7,cot,Base (Non Fine-Tuned),0.4444
+SD,mistral_7b,7B,Medium,7,cot,Base (Non Fine-Tuned),0.547
+SD,mistral_7b,7B,Medium,7,cot,Base (Non Fine-Tuned),0.4138
+SD,mistral_7b,7B,Medium,7,cot,Base (Non Fine-Tuned),0.6578
+SD,mistral_7b,7B,Medium,7,cot,Base (Non Fine-Tuned),0.5852
+SD,mistral_7b,7B,Medium,7,cot,Base (Non Fine-Tuned),0.2482
+SD,mistral_7b,7B,Medium,7,cot,Base (Non Fine-Tuned),0.7889
+SD,mistral_7b,7B,Medium,7,cot,Base (Non Fine-Tuned),0.2133
+SD,mistral_7b,7B,Medium,7,cot,LoRA Fine-Tuned,0.6208
+SD,mistral_7b,7B,Medium,7,cot,LoRA Fine-Tuned,0.8235
+SD,mistral_7b,7B,Medium,7,cot,LoRA Fine-Tuned,0.9083
+SD,mistral_7b,7B,Medium,7,cot,LoRA Fine-Tuned,0.7436
+SD,mistral_7b,7B,Medium,7,cot,LoRA Fine-Tuned,0.9221
+SD,mistral_7b,7B,Medium,7,cot,LoRA Fine-Tuned,0.9408
+SD,mistral_7b,7B,Medium,7,cot,LoRA Fine-Tuned,0.8465
+SD,mistral_7b,7B,Medium,7,cot,LoRA Fine-Tuned,0.8535
+SD,mistral_7b,7B,Medium,7,cot,LoRA Fine-Tuned,0.9048
+SD,mistral_7b,7B,Medium,7,cot,LoRA Fine-Tuned,0.8839
+SD,mistral_7b,7B,Medium,7,cot,LoRA Fine-Tuned,0.7899
+SD,mistral_7b,7B,Medium,7,cot,LoRA Fine-Tuned,0.8511
+SD,mistral_7b,7B,Medium,7,cot,LoRA Fine-Tuned,0.7699
+SD,mistral_7b,7B,Medium,7,cot,LoRA Fine-Tuned,0.844
+SD,mistral_7b,7B,Medium,7,cot,LoRA Fine-Tuned,0.8271
+SD,mistral_7b,7B,Medium,7,vanilla,Base (Non Fine-Tuned),0.2139
+SD,mistral_7b,7B,Medium,7,vanilla,Base (Non Fine-Tuned),0.1276
+SD,mistral_7b,7B,Medium,7,vanilla,Base (Non Fine-Tuned),0.3493
+SD,mistral_7b,7B,Medium,7,vanilla,Base (Non Fine-Tuned),0.7375
+SD,mistral_7b,7B,Medium,7,vanilla,Base (Non Fine-Tuned),0.6826
+SD,mistral_7b,7B,Medium,7,vanilla,Base (Non Fine-Tuned),0.544
+SD,mistral_7b,7B,Medium,7,vanilla,Base (Non Fine-Tuned),0.3967
+SD,mistral_7b,7B,Medium,7,vanilla,Base (Non Fine-Tuned),0.4568
+SD,mistral_7b,7B,Medium,7,vanilla,Base (Non Fine-Tuned),0.4415
+SD,mistral_7b,7B,Medium,7,vanilla,Base (Non Fine-Tuned),0.5374
+SD,mistral_7b,7B,Medium,7,vanilla,Base (Non Fine-Tuned),0.259
+SD,mistral_7b,7B,Medium,7,vanilla,Base (Non Fine-Tuned),0.4213
+SD,mistral_7b,7B,Medium,7,vanilla,Base (Non Fine-Tuned),0.5739
+SD,mistral_7b,7B,Medium,7,vanilla,Base (Non Fine-Tuned),0.8062
+SD,mistral_7b,7B,Medium,7,vanilla,Base (Non Fine-Tuned),0.2446
+SD,mistral_7b,7B,Medium,7,vanilla,LoRA Fine-Tuned,0.5695
+SD,mistral_7b,7B,Medium,7,vanilla,LoRA Fine-Tuned,0.8298
+SD,mistral_7b,7B,Medium,7,vanilla,LoRA Fine-Tuned,0.8395
+SD,mistral_7b,7B,Medium,7,vanilla,LoRA Fine-Tuned,0.747
+SD,mistral_7b,7B,Medium,7,vanilla,LoRA Fine-Tuned,0.9247
+SD,mistral_7b,7B,Medium,7,vanilla,LoRA Fine-Tuned,0.9467
+SD,mistral_7b,7B,Medium,7,vanilla,LoRA Fine-Tuned,0.8582
+SD,mistral_7b,7B,Medium,7,vanilla,LoRA Fine-Tuned,0.8706
+SD,mistral_7b,7B,Medium,7,vanilla,LoRA Fine-Tuned,0.9185
+SD,mistral_7b,7B,Medium,7,vanilla,LoRA Fine-Tuned,0.8875
+SD,mistral_7b,7B,Medium,7,vanilla,LoRA Fine-Tuned,0.7715
+SD,mistral_7b,7B,Medium,7,vanilla,LoRA Fine-Tuned,0.7816
+SD,mistral_7b,7B,Medium,7,vanilla,LoRA Fine-Tuned,0.8396
+SD,mistral_7b,7B,Medium,7,vanilla,LoRA Fine-Tuned,0.8607
+SD,mistral_7b,7B,Medium,7,vanilla,LoRA Fine-Tuned,0.8247
+SD,mistral_7b,7B,Medium,7,few_shot,Base (Non Fine-Tuned),0.3224
+SD,mistral_7b,7B,Medium,7,few_shot,Base (Non Fine-Tuned),0.5967
+SD,mistral_7b,7B,Medium,7,few_shot,Base (Non Fine-Tuned),0.5211
+SD,mistral_7b,7B,Medium,7,few_shot,Base (Non Fine-Tuned),0.752
+SD,mistral_7b,7B,Medium,7,few_shot,Base (Non Fine-Tuned),0.5971
+SD,mistral_7b,7B,Medium,7,few_shot,Base (Non Fine-Tuned),0.6337
+SD,mistral_7b,7B,Medium,7,few_shot,Base (Non Fine-Tuned),0.5503
+SD,mistral_7b,7B,Medium,7,few_shot,Base (Non Fine-Tuned),0.481
+SD,mistral_7b,7B,Medium,7,few_shot,Base (Non Fine-Tuned),0.643
+SD,mistral_7b,7B,Medium,7,few_shot,Base (Non Fine-Tuned),0.4158
+SD,mistral_7b,7B,Medium,7,few_shot,Base (Non Fine-Tuned),0.7139
+SD,mistral_7b,7B,Medium,7,few_shot,Base (Non Fine-Tuned),0.6943
+SD,mistral_7b,7B,Medium,7,few_shot,Base (Non Fine-Tuned),0.5359
+SD,mistral_7b,7B,Medium,7,few_shot,Base (Non Fine-Tuned),0.8078
+SD,mistral_7b,7B,Medium,7,few_shot,Base (Non Fine-Tuned),0.5935
+SD,mistral_7b,7B,Medium,7,few_shot,LoRA Fine-Tuned,0.7103
+SD,mistral_7b,7B,Medium,7,few_shot,LoRA Fine-Tuned,0.8112
+SD,mistral_7b,7B,Medium,7,few_shot,LoRA Fine-Tuned,0.8453
+SD,mistral_7b,7B,Medium,7,few_shot,LoRA Fine-Tuned,0.4618
+SD,mistral_7b,7B,Medium,7,few_shot,LoRA Fine-Tuned,0.911
+SD,mistral_7b,7B,Medium,7,few_shot,LoRA Fine-Tuned,0.9178
+SD,mistral_7b,7B,Medium,7,few_shot,LoRA Fine-Tuned,0.8102
+SD,mistral_7b,7B,Medium,7,few_shot,LoRA Fine-Tuned,0.8365
+SD,mistral_7b,7B,Medium,7,few_shot,LoRA Fine-Tuned,0.8496
+SD,mistral_7b,7B,Medium,7,few_shot,LoRA Fine-Tuned,0.8901
+SD,mistral_7b,7B,Medium,7,few_shot,LoRA Fine-Tuned,0.7329
+SD,mistral_7b,7B,Medium,7,few_shot,LoRA Fine-Tuned,0.869
+SD,mistral_7b,7B,Medium,7,few_shot,LoRA Fine-Tuned,0.8433
+SD,mistral_7b,7B,Medium,7,few_shot,LoRA Fine-Tuned,0.8317
+SD,mistral_7b,7B,Medium,7,few_shot,LoRA Fine-Tuned,0.8182
+SD,mistral_7b,7B,Medium,7,knowledge_infused,Base (Non Fine-Tuned),0.1324
+SD,mistral_7b,7B,Medium,7,knowledge_infused,Base (Non Fine-Tuned),0.4065
+SD,mistral_7b,7B,Medium,7,knowledge_infused,Base (Non Fine-Tuned),0.5895
+SD,mistral_7b,7B,Medium,7,knowledge_infused,Base (Non Fine-Tuned),0.7589
+SD,mistral_7b,7B,Medium,7,knowledge_infused,Base (Non Fine-Tuned),0.5836
+SD,mistral_7b,7B,Medium,7,knowledge_infused,Base (Non Fine-Tuned),0.608
+SD,mistral_7b,7B,Medium,7,knowledge_infused,Base (Non Fine-Tuned),0.5936
+SD,mistral_7b,7B,Medium,7,knowledge_infused,Base (Non Fine-Tuned),0.5298
+SD,mistral_7b,7B,Medium,7,knowledge_infused,Base (Non Fine-Tuned),0.7404
+SD,mistral_7b,7B,Medium,7,knowledge_infused,Base (Non Fine-Tuned),0.6075
+SD,mistral_7b,7B,Medium,7,knowledge_infused,Base (Non Fine-Tuned),0.2663
+SD,mistral_7b,7B,Medium,7,knowledge_infused,Base (Non Fine-Tuned),0.564
+SD,mistral_7b,7B,Medium,7,knowledge_infused,Base (Non Fine-Tuned),0.662
+SD,mistral_7b,7B,Medium,7,knowledge_infused,Base (Non Fine-Tuned),0.8204
+SD,mistral_7b,7B,Medium,7,knowledge_infused,Base (Non Fine-Tuned),0.4638
+SD,mistral_7b,7B,Medium,7,knowledge_infused,LoRA Fine-Tuned,0.6081
+SD,mistral_7b,7B,Medium,7,knowledge_infused,LoRA Fine-Tuned,0.8304
+SD,mistral_7b,7B,Medium,7,knowledge_infused,LoRA Fine-Tuned,0.7967
+SD,mistral_7b,7B,Medium,7,knowledge_infused,LoRA Fine-Tuned,0.7266
+SD,mistral_7b,7B,Medium,7,knowledge_infused,LoRA Fine-Tuned,0.9206
+SD,mistral_7b,7B,Medium,7,knowledge_infused,LoRA Fine-Tuned,0.9309
+SD,mistral_7b,7B,Medium,7,knowledge_infused,LoRA Fine-Tuned,0.8162
+SD,mistral_7b,7B,Medium,7,knowledge_infused,LoRA Fine-Tuned,0.8637
+SD,mistral_7b,7B,Medium,7,knowledge_infused,LoRA Fine-Tuned,0.6219
+SD,mistral_7b,7B,Medium,7,knowledge_infused,LoRA Fine-Tuned,0.8931
+SD,mistral_7b,7B,Medium,7,knowledge_infused,LoRA Fine-Tuned,0.7536
+SD,mistral_7b,7B,Medium,7,knowledge_infused,LoRA Fine-Tuned,0.7226
+SD,mistral_7b,7B,Medium,7,knowledge_infused,LoRA Fine-Tuned,0.915
+SD,mistral_7b,7B,Medium,7,knowledge_infused,LoRA Fine-Tuned,0.8311
+SD,mistral_7b,7B,Medium,7,knowledge_infused,LoRA Fine-Tuned,0.8164
+SD,mistral_24b,24B,Large,24,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.6551
+SD,mistral_24b,24B,Large,24,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.7824
+SD,mistral_24b,24B,Large,24,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.843
+SD,mistral_24b,24B,Large,24,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.6666
+SD,mistral_24b,24B,Large,24,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.8332
+SD,mistral_24b,24B,Large,24,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.4865
+SD,mistral_24b,24B,Large,24,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.6819
+SD,mistral_24b,24B,Large,24,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.5145
+SD,mistral_24b,24B,Large,24,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.7942
+SD,mistral_24b,24B,Large,24,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.7216
+SD,mistral_24b,24B,Large,24,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.7919
+SD,mistral_24b,24B,Large,24,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.713
+SD,mistral_24b,24B,Large,24,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.6583
+SD,mistral_24b,24B,Large,24,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.7006
+SD,mistral_24b,24B,Large,24,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.6284
+SD,mistral_24b,24B,Large,24,cot_knowledge_few_shot,LoRA Fine-Tuned,0.7544
+SD,mistral_24b,24B,Large,24,cot_knowledge_few_shot,LoRA Fine-Tuned,0.8293
+SD,mistral_24b,24B,Large,24,cot_knowledge_few_shot,LoRA Fine-Tuned,0.8423
+SD,mistral_24b,24B,Large,24,cot_knowledge_few_shot,LoRA Fine-Tuned,0.9285
+SD,mistral_24b,24B,Large,24,cot_knowledge_few_shot,LoRA Fine-Tuned,0.8874
+SD,mistral_24b,24B,Large,24,cot_knowledge_few_shot,LoRA Fine-Tuned,0.8376
+SD,mistral_24b,24B,Large,24,cot_knowledge_few_shot,LoRA Fine-Tuned,0.8981
+SD,mistral_24b,24B,Large,24,cot_knowledge_few_shot,LoRA Fine-Tuned,0.8948
+SD,mistral_24b,24B,Large,24,cot_knowledge_few_shot,LoRA Fine-Tuned,0.8751
+SD,mistral_24b,24B,Large,24,cot_knowledge_few_shot,LoRA Fine-Tuned,0.7326
+SD,mistral_24b,24B,Large,24,cot_knowledge_few_shot,LoRA Fine-Tuned,0.7657
+SD,mistral_24b,24B,Large,24,cot_knowledge_few_shot,LoRA Fine-Tuned,0.6641
+SD,mistral_24b,24B,Large,24,cot_knowledge_few_shot,LoRA Fine-Tuned,0.8774
+SD,mistral_24b,24B,Large,24,cot_knowledge_few_shot,LoRA Fine-Tuned,0.8394
+SD,mistral_24b,24B,Large,24,cot_knowledge_few_shot,LoRA Fine-Tuned,0.7632
+SD,mistral_24b,24B,Large,24,cot_knowledge,Base (Non Fine-Tuned),0.597
+SD,mistral_24b,24B,Large,24,cot_knowledge,Base (Non Fine-Tuned),0.5279
+SD,mistral_24b,24B,Large,24,cot_knowledge,Base (Non Fine-Tuned),0.6656
+SD,mistral_24b,24B,Large,24,cot_knowledge,Base (Non Fine-Tuned),0.7292
+SD,mistral_24b,24B,Large,24,cot_knowledge,Base (Non Fine-Tuned),0.6527
+SD,mistral_24b,24B,Large,24,cot_knowledge,Base (Non Fine-Tuned),0.6603
+SD,mistral_24b,24B,Large,24,cot_knowledge,Base (Non Fine-Tuned),0.5333
+SD,mistral_24b,24B,Large,24,cot_knowledge,Base (Non Fine-Tuned),0.7921
+SD,mistral_24b,24B,Large,24,cot_knowledge,Base (Non Fine-Tuned),0.3028
+SD,mistral_24b,24B,Large,24,cot_knowledge,Base (Non Fine-Tuned),0.6201
+SD,mistral_24b,24B,Large,24,cot_knowledge,Base (Non Fine-Tuned),0.7155
+SD,mistral_24b,24B,Large,24,cot_knowledge,Base (Non Fine-Tuned),0.2028
+SD,mistral_24b,24B,Large,24,cot_knowledge,Base (Non Fine-Tuned),0.8417
+SD,mistral_24b,24B,Large,24,cot_knowledge,Base (Non Fine-Tuned),0.6415
+SD,mistral_24b,24B,Large,24,cot_knowledge,Base (Non Fine-Tuned),0.5579
+SD,mistral_24b,24B,Large,24,cot_knowledge,LoRA Fine-Tuned,0.9312
+SD,mistral_24b,24B,Large,24,cot_knowledge,LoRA Fine-Tuned,0.9207
+SD,mistral_24b,24B,Large,24,cot_knowledge,LoRA Fine-Tuned,0.8537
+SD,mistral_24b,24B,Large,24,cot_knowledge,LoRA Fine-Tuned,0.8908
+SD,mistral_24b,24B,Large,24,cot_knowledge,LoRA Fine-Tuned,0.9035
+SD,mistral_24b,24B,Large,24,cot_knowledge,LoRA Fine-Tuned,0.4295
+SD,mistral_24b,24B,Large,24,cot_knowledge,LoRA Fine-Tuned,0.8199
+SD,mistral_24b,24B,Large,24,cot_knowledge,LoRA Fine-Tuned,0.8688
+SD,mistral_24b,24B,Large,24,cot_knowledge,LoRA Fine-Tuned,0.7741
+SD,mistral_24b,24B,Large,24,cot_knowledge,LoRA Fine-Tuned,0.8364
+SD,mistral_24b,24B,Large,24,cot_knowledge,LoRA Fine-Tuned,0.845
+SD,mistral_24b,24B,Large,24,cot_knowledge,LoRA Fine-Tuned,0.7097
+SD,mistral_24b,24B,Large,24,cot_knowledge,LoRA Fine-Tuned,0.8985
+SD,mistral_24b,24B,Large,24,cot_knowledge,LoRA Fine-Tuned,0.8308
+SD,mistral_24b,24B,Large,24,cot_knowledge,LoRA Fine-Tuned,0.7896
+SD,mistral_24b,24B,Large,24,cot,Base (Non Fine-Tuned),0.7356
+SD,mistral_24b,24B,Large,24,cot,Base (Non Fine-Tuned),0.1434
+SD,mistral_24b,24B,Large,24,cot,Base (Non Fine-Tuned),0.4743
+SD,mistral_24b,24B,Large,24,cot,Base (Non Fine-Tuned),0.5024
+SD,mistral_24b,24B,Large,24,cot,Base (Non Fine-Tuned),0.5928
+SD,mistral_24b,24B,Large,24,cot,Base (Non Fine-Tuned),0.522
+SD,mistral_24b,24B,Large,24,cot,Base (Non Fine-Tuned),0.6001
+SD,mistral_24b,24B,Large,24,cot,Base (Non Fine-Tuned),0.4328
+SD,mistral_24b,24B,Large,24,cot,Base (Non Fine-Tuned),0.8047
+SD,mistral_24b,24B,Large,24,cot,Base (Non Fine-Tuned),0.5526
+SD,mistral_24b,24B,Large,24,cot,Base (Non Fine-Tuned),0.4258
+SD,mistral_24b,24B,Large,24,cot,Base (Non Fine-Tuned),0.2346
+SD,mistral_24b,24B,Large,24,cot,Base (Non Fine-Tuned),0.6879
+SD,mistral_24b,24B,Large,24,cot,Base (Non Fine-Tuned),0.1819
+SD,mistral_24b,24B,Large,24,cot,Base (Non Fine-Tuned),0.1841
+SD,mistral_24b,24B,Large,24,cot,LoRA Fine-Tuned,0.4257
+SD,mistral_24b,24B,Large,24,cot,LoRA Fine-Tuned,0.8199
+SD,mistral_24b,24B,Large,24,cot,LoRA Fine-Tuned,0.7648
+SD,mistral_24b,24B,Large,24,cot,LoRA Fine-Tuned,0.8066
+SD,mistral_24b,24B,Large,24,cot,LoRA Fine-Tuned,0.8303
+SD,mistral_24b,24B,Large,24,cot,LoRA Fine-Tuned,0.7176
+SD,mistral_24b,24B,Large,24,cot,LoRA Fine-Tuned,0.8975
+SD,mistral_24b,24B,Large,24,cot,LoRA Fine-Tuned,0.9324
+SD,mistral_24b,24B,Large,24,cot,LoRA Fine-Tuned,0.9245
+SD,mistral_24b,24B,Large,24,cot,LoRA Fine-Tuned,0.8501
+SD,mistral_24b,24B,Large,24,cot,LoRA Fine-Tuned,0.895
+SD,mistral_24b,24B,Large,24,cot,LoRA Fine-Tuned,0.8897
+SD,mistral_24b,24B,Large,24,cot,LoRA Fine-Tuned,0.8088
+SD,mistral_24b,24B,Large,24,cot,LoRA Fine-Tuned,0.848
+SD,mistral_24b,24B,Large,24,cot,LoRA Fine-Tuned,0.8191
+SD,mistral_24b,24B,Large,24,few_shot,Base (Non Fine-Tuned),0.6066
+SD,mistral_24b,24B,Large,24,few_shot,Base (Non Fine-Tuned),0.706
+SD,mistral_24b,24B,Large,24,few_shot,Base (Non Fine-Tuned),0.2187
+SD,mistral_24b,24B,Large,24,few_shot,Base (Non Fine-Tuned),0.359
+SD,mistral_24b,24B,Large,24,few_shot,Base (Non Fine-Tuned),0.7918
+SD,mistral_24b,24B,Large,24,few_shot,Base (Non Fine-Tuned),0.6523
+SD,mistral_24b,24B,Large,24,few_shot,Base (Non Fine-Tuned),0.64
+SD,mistral_24b,24B,Large,24,few_shot,Base (Non Fine-Tuned),0.6758
+SD,mistral_24b,24B,Large,24,few_shot,Base (Non Fine-Tuned),0.8479
+SD,mistral_24b,24B,Large,24,few_shot,Base (Non Fine-Tuned),0.7791
+SD,mistral_24b,24B,Large,24,few_shot,Base (Non Fine-Tuned),0.7362
+SD,mistral_24b,24B,Large,24,few_shot,Base (Non Fine-Tuned),0.5864
+SD,mistral_24b,24B,Large,24,few_shot,Base (Non Fine-Tuned),0.5889
+SD,mistral_24b,24B,Large,24,few_shot,Base (Non Fine-Tuned),0.5841
+SD,mistral_24b,24B,Large,24,few_shot,Base (Non Fine-Tuned),0.5622
+SD,mistral_24b,24B,Large,24,few_shot,LoRA Fine-Tuned,0.6861
+SD,mistral_24b,24B,Large,24,few_shot,LoRA Fine-Tuned,0.748
+SD,mistral_24b,24B,Large,24,few_shot,LoRA Fine-Tuned,0.6867
+SD,mistral_24b,24B,Large,24,few_shot,LoRA Fine-Tuned,0.8547
+SD,mistral_24b,24B,Large,24,few_shot,LoRA Fine-Tuned,0.7579
+SD,mistral_24b,24B,Large,24,few_shot,LoRA Fine-Tuned,0.8817
+SD,mistral_24b,24B,Large,24,few_shot,LoRA Fine-Tuned,0.8354
+SD,mistral_24b,24B,Large,24,few_shot,LoRA Fine-Tuned,0.8239
+SD,mistral_24b,24B,Large,24,few_shot,LoRA Fine-Tuned,0.9335
+SD,mistral_24b,24B,Large,24,few_shot,LoRA Fine-Tuned,0.8881
+SD,mistral_24b,24B,Large,24,few_shot,LoRA Fine-Tuned,0.8235
+SD,mistral_24b,24B,Large,24,few_shot,LoRA Fine-Tuned,0.9021
+SD,mistral_24b,24B,Large,24,few_shot,LoRA Fine-Tuned,0.8834
+SD,mistral_24b,24B,Large,24,few_shot,LoRA Fine-Tuned,0.8357
+SD,mistral_24b,24B,Large,24,few_shot,LoRA Fine-Tuned,0.8052
+SD,mistral_24b,24B,Large,24,vanilla,Base (Non Fine-Tuned),0.4285
+SD,mistral_24b,24B,Large,24,vanilla,Base (Non Fine-Tuned),0.2489
+SD,mistral_24b,24B,Large,24,vanilla,Base (Non Fine-Tuned),0.4486
+SD,mistral_24b,24B,Large,24,vanilla,Base (Non Fine-Tuned),0.7441
+SD,mistral_24b,24B,Large,24,vanilla,Base (Non Fine-Tuned),0.1455
+SD,mistral_24b,24B,Large,24,vanilla,Base (Non Fine-Tuned),0.4202
+SD,mistral_24b,24B,Large,24,vanilla,Base (Non Fine-Tuned),0.4723
+SD,mistral_24b,24B,Large,24,vanilla,Base (Non Fine-Tuned),0.2312
+SD,mistral_24b,24B,Large,24,vanilla,Base (Non Fine-Tuned),0.581
+SD,mistral_24b,24B,Large,24,vanilla,Base (Non Fine-Tuned),0.5295
+SD,mistral_24b,24B,Large,24,vanilla,Base (Non Fine-Tuned),0.5894
+SD,mistral_24b,24B,Large,24,vanilla,Base (Non Fine-Tuned),0.6162
+SD,mistral_24b,24B,Large,24,vanilla,Base (Non Fine-Tuned),0.7059
+SD,mistral_24b,24B,Large,24,vanilla,Base (Non Fine-Tuned),0.8118
+SD,mistral_24b,24B,Large,24,vanilla,Base (Non Fine-Tuned),0.2141
+SD,mistral_24b,24B,Large,24,vanilla,LoRA Fine-Tuned,0.8132
+SD,mistral_24b,24B,Large,24,vanilla,LoRA Fine-Tuned,0.9285
+SD,mistral_24b,24B,Large,24,vanilla,LoRA Fine-Tuned,0.9424
+SD,mistral_24b,24B,Large,24,vanilla,LoRA Fine-Tuned,0.8623
+SD,mistral_24b,24B,Large,24,vanilla,LoRA Fine-Tuned,0.8458
+SD,mistral_24b,24B,Large,24,vanilla,LoRA Fine-Tuned,0.8978
+SD,mistral_24b,24B,Large,24,vanilla,LoRA Fine-Tuned,0.3772
+SD,mistral_24b,24B,Large,24,vanilla,LoRA Fine-Tuned,0.8247
+SD,mistral_24b,24B,Large,24,vanilla,LoRA Fine-Tuned,0.9146
+SD,mistral_24b,24B,Large,24,vanilla,LoRA Fine-Tuned,0.7488
+SD,mistral_24b,24B,Large,24,vanilla,LoRA Fine-Tuned,0.8346
+SD,mistral_24b,24B,Large,24,vanilla,LoRA Fine-Tuned,0.7176
+SD,mistral_24b,24B,Large,24,vanilla,LoRA Fine-Tuned,0.8972
+SD,mistral_24b,24B,Large,24,vanilla,LoRA Fine-Tuned,0.8522
+SD,mistral_24b,24B,Large,24,vanilla,LoRA Fine-Tuned,0.8412
+SD,mistral_24b,24B,Large,24,knowledge_infused,Base (Non Fine-Tuned),0.7219
+SD,mistral_24b,24B,Large,24,knowledge_infused,Base (Non Fine-Tuned),0.7757
+SD,mistral_24b,24B,Large,24,knowledge_infused,Base (Non Fine-Tuned),0.7902
+SD,mistral_24b,24B,Large,24,knowledge_infused,Base (Non Fine-Tuned),0.612
+SD,mistral_24b,24B,Large,24,knowledge_infused,Base (Non Fine-Tuned),0.6532
+SD,mistral_24b,24B,Large,24,knowledge_infused,Base (Non Fine-Tuned),0.8488
+SD,mistral_24b,24B,Large,24,knowledge_infused,Base (Non Fine-Tuned),0.7076
+SD,mistral_24b,24B,Large,24,knowledge_infused,Base (Non Fine-Tuned),0.1909
+SD,mistral_24b,24B,Large,24,knowledge_infused,Base (Non Fine-Tuned),0.6539
+SD,mistral_24b,24B,Large,24,knowledge_infused,Base (Non Fine-Tuned),0.5692
+SD,mistral_24b,24B,Large,24,knowledge_infused,Base (Non Fine-Tuned),0.5279
+SD,mistral_24b,24B,Large,24,knowledge_infused,Base (Non Fine-Tuned),0.3478
+SD,mistral_24b,24B,Large,24,knowledge_infused,Base (Non Fine-Tuned),0.7103
+SD,mistral_24b,24B,Large,24,knowledge_infused,Base (Non Fine-Tuned),0.6712
+SD,mistral_24b,24B,Large,24,knowledge_infused,Base (Non Fine-Tuned),0.5431
+SD,mistral_24b,24B,Large,24,knowledge_infused,LoRA Fine-Tuned,0.8246
+SD,mistral_24b,24B,Large,24,knowledge_infused,LoRA Fine-Tuned,0.9021
+SD,mistral_24b,24B,Large,24,knowledge_infused,LoRA Fine-Tuned,0.4064
+SD,mistral_24b,24B,Large,24,knowledge_infused,LoRA Fine-Tuned,0.8293
+SD,mistral_24b,24B,Large,24,knowledge_infused,LoRA Fine-Tuned,0.9325
+SD,mistral_24b,24B,Large,24,knowledge_infused,LoRA Fine-Tuned,0.8745
+SD,mistral_24b,24B,Large,24,knowledge_infused,LoRA Fine-Tuned,0.9044
+SD,mistral_24b,24B,Large,24,knowledge_infused,LoRA Fine-Tuned,0.8651
+SD,mistral_24b,24B,Large,24,knowledge_infused,LoRA Fine-Tuned,0.8992
+SD,mistral_24b,24B,Large,24,knowledge_infused,LoRA Fine-Tuned,0.7638
+SD,mistral_24b,24B,Large,24,knowledge_infused,LoRA Fine-Tuned,0.8155
+SD,mistral_24b,24B,Large,24,knowledge_infused,LoRA Fine-Tuned,0.7349
+SD,mistral_24b,24B,Large,24,knowledge_infused,LoRA Fine-Tuned,0.9015
+SD,mistral_24b,24B,Large,24,knowledge_infused,LoRA Fine-Tuned,0.8305
+SD,mistral_24b,24B,Large,24,knowledge_infused,LoRA Fine-Tuned,0.7953
+SD,llama3_8b,8B,Medium,8,cot_knowledge,Base (Non Fine-Tuned),0.6336
+SD,llama3_8b,8B,Medium,8,cot_knowledge,Base (Non Fine-Tuned),0.5522
+SD,llama3_8b,8B,Medium,8,cot_knowledge,Base (Non Fine-Tuned),0.5645
+SD,llama3_8b,8B,Medium,8,cot_knowledge,Base (Non Fine-Tuned),0.7432
+SD,llama3_8b,8B,Medium,8,cot_knowledge,Base (Non Fine-Tuned),0.6134
+SD,llama3_8b,8B,Medium,8,cot_knowledge,Base (Non Fine-Tuned),0.4783
+SD,llama3_8b,8B,Medium,8,cot_knowledge,Base (Non Fine-Tuned),0.2184
+SD,llama3_8b,8B,Medium,8,cot_knowledge,Base (Non Fine-Tuned),0.2721
+SD,llama3_8b,8B,Medium,8,cot_knowledge,Base (Non Fine-Tuned),0.778
+SD,llama3_8b,8B,Medium,8,cot_knowledge,Base (Non Fine-Tuned),0.6116
+SD,llama3_8b,8B,Medium,8,cot_knowledge,Base (Non Fine-Tuned),0.488
+SD,llama3_8b,8B,Medium,8,cot_knowledge,Base (Non Fine-Tuned),0.571
+SD,llama3_8b,8B,Medium,8,cot_knowledge,Base (Non Fine-Tuned),0.6184
+SD,llama3_8b,8B,Medium,8,cot_knowledge,Base (Non Fine-Tuned),0.4214
+SD,llama3_8b,8B,Medium,8,cot_knowledge,Base (Non Fine-Tuned),0.568
+SD,llama3_8b,8B,Medium,8,cot_knowledge,LoRA Fine-Tuned,0.8403
+SD,llama3_8b,8B,Medium,8,cot_knowledge,LoRA Fine-Tuned,0.6684
+SD,llama3_8b,8B,Medium,8,cot_knowledge,LoRA Fine-Tuned,0.8068
+SD,llama3_8b,8B,Medium,8,cot_knowledge,LoRA Fine-Tuned,0.7711
+SD,llama3_8b,8B,Medium,8,cot_knowledge,LoRA Fine-Tuned,0.701
+SD,llama3_8b,8B,Medium,8,cot_knowledge,LoRA Fine-Tuned,0.9049
+SD,llama3_8b,8B,Medium,8,cot_knowledge,LoRA Fine-Tuned,0.8556
+SD,llama3_8b,8B,Medium,8,cot_knowledge,LoRA Fine-Tuned,0.7389
+SD,llama3_8b,8B,Medium,8,cot_knowledge,LoRA Fine-Tuned,0.7194
+SD,llama3_8b,8B,Medium,8,cot_knowledge,LoRA Fine-Tuned,0.8441
+SD,llama3_8b,8B,Medium,8,cot_knowledge,LoRA Fine-Tuned,0.8534
+SD,llama3_8b,8B,Medium,8,cot_knowledge,LoRA Fine-Tuned,0.733
+SD,llama3_8b,8B,Medium,8,cot_knowledge,LoRA Fine-Tuned,0.6976
+SD,llama3_8b,8B,Medium,8,cot_knowledge,LoRA Fine-Tuned,0.7434
+SD,llama3_8b,8B,Medium,8,cot_knowledge,LoRA Fine-Tuned,0.666
+SD,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.6169
+SD,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.5702
+SD,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.7491
+SD,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.7075
+SD,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.5954
+SD,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.7646
+SD,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.6298
+SD,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.8193
+SD,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.4233
+SD,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.6413
+SD,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.4634
+SD,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.5795
+SD,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.6369
+SD,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.5137
+SD,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.6722
+SD,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,LoRA Fine-Tuned,0.6797
+SD,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,LoRA Fine-Tuned,0.8012
+SD,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,LoRA Fine-Tuned,0.7041
+SD,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,LoRA Fine-Tuned,0.3378
+SD,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,LoRA Fine-Tuned,0.8779
+SD,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,LoRA Fine-Tuned,0.7631
+SD,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,LoRA Fine-Tuned,0.8139
+SD,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,LoRA Fine-Tuned,0.7262
+SD,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,LoRA Fine-Tuned,0.7326
+SD,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,LoRA Fine-Tuned,0.8727
+SD,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,LoRA Fine-Tuned,0.6658
+SD,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,LoRA Fine-Tuned,0.6025
+SD,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,LoRA Fine-Tuned,0.8006
+SD,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,LoRA Fine-Tuned,0.714
+SD,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,LoRA Fine-Tuned,0.7558
+SD,llama3_8b,8B,Medium,8,cot,Base (Non Fine-Tuned),0.5934
+SD,llama3_8b,8B,Medium,8,cot,Base (Non Fine-Tuned),0.1671
+SD,llama3_8b,8B,Medium,8,cot,Base (Non Fine-Tuned),0.7048
+SD,llama3_8b,8B,Medium,8,cot,Base (Non Fine-Tuned),0.4473
+SD,llama3_8b,8B,Medium,8,cot,Base (Non Fine-Tuned),0.4953
+SD,llama3_8b,8B,Medium,8,cot,Base (Non Fine-Tuned),0.7693
+SD,llama3_8b,8B,Medium,8,cot,Base (Non Fine-Tuned),0.3972
+SD,llama3_8b,8B,Medium,8,cot,Base (Non Fine-Tuned),0.2475
+SD,llama3_8b,8B,Medium,8,cot,Base (Non Fine-Tuned),0.4248
+SD,llama3_8b,8B,Medium,8,cot,Base (Non Fine-Tuned),0.4951
+SD,llama3_8b,8B,Medium,8,cot,Base (Non Fine-Tuned),0.5095
+SD,llama3_8b,8B,Medium,8,cot,Base (Non Fine-Tuned),0.3662
+SD,llama3_8b,8B,Medium,8,cot,Base (Non Fine-Tuned),0.4331
+SD,llama3_8b,8B,Medium,8,cot,Base (Non Fine-Tuned),0.1667
+SD,llama3_8b,8B,Medium,8,cot,Base (Non Fine-Tuned),0.2787
+SD,llama3_8b,8B,Medium,8,cot,LoRA Fine-Tuned,0.6462
+SD,llama3_8b,8B,Medium,8,cot,LoRA Fine-Tuned,0.8092
+SD,llama3_8b,8B,Medium,8,cot,LoRA Fine-Tuned,0.7511
+SD,llama3_8b,8B,Medium,8,cot,LoRA Fine-Tuned,0.7045
+SD,llama3_8b,8B,Medium,8,cot,LoRA Fine-Tuned,0.9051
+SD,llama3_8b,8B,Medium,8,cot,LoRA Fine-Tuned,0.8889
+SD,llama3_8b,8B,Medium,8,cot,LoRA Fine-Tuned,0.7706
+SD,llama3_8b,8B,Medium,8,cot,LoRA Fine-Tuned,0.6838
+SD,llama3_8b,8B,Medium,8,cot,LoRA Fine-Tuned,0.8179
+SD,llama3_8b,8B,Medium,8,cot,LoRA Fine-Tuned,0.8572
+SD,llama3_8b,8B,Medium,8,cot,LoRA Fine-Tuned,0.7284
+SD,llama3_8b,8B,Medium,8,cot,LoRA Fine-Tuned,0.7024
+SD,llama3_8b,8B,Medium,8,cot,LoRA Fine-Tuned,0.8201
+SD,llama3_8b,8B,Medium,8,cot,LoRA Fine-Tuned,0.8166
+SD,llama3_8b,8B,Medium,8,cot,LoRA Fine-Tuned,0.7926
+SD,llama3_8b,8B,Medium,8,few_shot,Base (Non Fine-Tuned),0.6431
+SD,llama3_8b,8B,Medium,8,few_shot,Base (Non Fine-Tuned),0.2868
+SD,llama3_8b,8B,Medium,8,few_shot,Base (Non Fine-Tuned),0.5206
+SD,llama3_8b,8B,Medium,8,few_shot,Base (Non Fine-Tuned),0.7664
+SD,llama3_8b,8B,Medium,8,few_shot,Base (Non Fine-Tuned),0.775
+SD,llama3_8b,8B,Medium,8,few_shot,Base (Non Fine-Tuned),0.6057
+SD,llama3_8b,8B,Medium,8,few_shot,Base (Non Fine-Tuned),0.6044
+SD,llama3_8b,8B,Medium,8,few_shot,Base (Non Fine-Tuned),0.5756
+SD,llama3_8b,8B,Medium,8,few_shot,Base (Non Fine-Tuned),0.4819
+SD,llama3_8b,8B,Medium,8,few_shot,Base (Non Fine-Tuned),0.8173
+SD,llama3_8b,8B,Medium,8,few_shot,Base (Non Fine-Tuned),0.5995
+SD,llama3_8b,8B,Medium,8,few_shot,Base (Non Fine-Tuned),0.3766
+SD,llama3_8b,8B,Medium,8,few_shot,Base (Non Fine-Tuned),0.6089
+SD,llama3_8b,8B,Medium,8,few_shot,Base (Non Fine-Tuned),0.4372
+SD,llama3_8b,8B,Medium,8,few_shot,Base (Non Fine-Tuned),0.6053
+SD,llama3_8b,8B,Medium,8,few_shot,LoRA Fine-Tuned,0.6287
+SD,llama3_8b,8B,Medium,8,few_shot,LoRA Fine-Tuned,0.8047
+SD,llama3_8b,8B,Medium,8,few_shot,LoRA Fine-Tuned,0.7428
+SD,llama3_8b,8B,Medium,8,few_shot,LoRA Fine-Tuned,0.3439
+SD,llama3_8b,8B,Medium,8,few_shot,LoRA Fine-Tuned,0.8819
+SD,llama3_8b,8B,Medium,8,few_shot,LoRA Fine-Tuned,0.8411
+SD,llama3_8b,8B,Medium,8,few_shot,LoRA Fine-Tuned,0.8163
+SD,llama3_8b,8B,Medium,8,few_shot,LoRA Fine-Tuned,0.7347
+SD,llama3_8b,8B,Medium,8,few_shot,LoRA Fine-Tuned,0.7326
+SD,llama3_8b,8B,Medium,8,few_shot,LoRA Fine-Tuned,0.8642
+SD,llama3_8b,8B,Medium,8,few_shot,LoRA Fine-Tuned,0.6488
+SD,llama3_8b,8B,Medium,8,few_shot,LoRA Fine-Tuned,0.7245
+SD,llama3_8b,8B,Medium,8,few_shot,LoRA Fine-Tuned,0.8197
+SD,llama3_8b,8B,Medium,8,few_shot,LoRA Fine-Tuned,0.7644
+SD,llama3_8b,8B,Medium,8,few_shot,LoRA Fine-Tuned,0.6807
+SD,llama3_8b,8B,Medium,8,knowledge_infused,Base (Non Fine-Tuned),0.2317
+SD,llama3_8b,8B,Medium,8,knowledge_infused,Base (Non Fine-Tuned),0.5842
+SD,llama3_8b,8B,Medium,8,knowledge_infused,Base (Non Fine-Tuned),0.5411
+SD,llama3_8b,8B,Medium,8,knowledge_infused,Base (Non Fine-Tuned),0.7457
+SD,llama3_8b,8B,Medium,8,knowledge_infused,Base (Non Fine-Tuned),0.5651
+SD,llama3_8b,8B,Medium,8,knowledge_infused,Base (Non Fine-Tuned),0.6578
+SD,llama3_8b,8B,Medium,8,knowledge_infused,Base (Non Fine-Tuned),0.5016
+SD,llama3_8b,8B,Medium,8,knowledge_infused,Base (Non Fine-Tuned),0.7003
+SD,llama3_8b,8B,Medium,8,knowledge_infused,Base (Non Fine-Tuned),0.6369
+SD,llama3_8b,8B,Medium,8,knowledge_infused,Base (Non Fine-Tuned),0.6067
+SD,llama3_8b,8B,Medium,8,knowledge_infused,Base (Non Fine-Tuned),0.2416
+SD,llama3_8b,8B,Medium,8,knowledge_infused,Base (Non Fine-Tuned),0.6624
+SD,llama3_8b,8B,Medium,8,knowledge_infused,Base (Non Fine-Tuned),0.7979
+SD,llama3_8b,8B,Medium,8,knowledge_infused,Base (Non Fine-Tuned),0.6113
+SD,llama3_8b,8B,Medium,8,knowledge_infused,Base (Non Fine-Tuned),0.4521
+SD,llama3_8b,8B,Medium,8,knowledge_infused,LoRA Fine-Tuned,0.6923
+SD,llama3_8b,8B,Medium,8,knowledge_infused,LoRA Fine-Tuned,0.8262
+SD,llama3_8b,8B,Medium,8,knowledge_infused,LoRA Fine-Tuned,0.7626
+SD,llama3_8b,8B,Medium,8,knowledge_infused,LoRA Fine-Tuned,0.7289
+SD,llama3_8b,8B,Medium,8,knowledge_infused,LoRA Fine-Tuned,0.9075
+SD,llama3_8b,8B,Medium,8,knowledge_infused,LoRA Fine-Tuned,0.8893
+SD,llama3_8b,8B,Medium,8,knowledge_infused,LoRA Fine-Tuned,0.8091
+SD,llama3_8b,8B,Medium,8,knowledge_infused,LoRA Fine-Tuned,0.7405
+SD,llama3_8b,8B,Medium,8,knowledge_infused,LoRA Fine-Tuned,0.8451
+SD,llama3_8b,8B,Medium,8,knowledge_infused,LoRA Fine-Tuned,0.869
+SD,llama3_8b,8B,Medium,8,knowledge_infused,LoRA Fine-Tuned,0.7262
+SD,llama3_8b,8B,Medium,8,knowledge_infused,LoRA Fine-Tuned,0.7916
+SD,llama3_8b,8B,Medium,8,knowledge_infused,LoRA Fine-Tuned,0.8414
+SD,llama3_8b,8B,Medium,8,knowledge_infused,LoRA Fine-Tuned,0.7718
+SD,llama3_8b,8B,Medium,8,knowledge_infused,LoRA Fine-Tuned,0.6286
+SD,llama3_8b,8B,Medium,8,vanilla,Base (Non Fine-Tuned),0.6816
+SD,llama3_8b,8B,Medium,8,vanilla,Base (Non Fine-Tuned),0.1386
+SD,llama3_8b,8B,Medium,8,vanilla,Base (Non Fine-Tuned),0.4836
+SD,llama3_8b,8B,Medium,8,vanilla,Base (Non Fine-Tuned),0.4427
+SD,llama3_8b,8B,Medium,8,vanilla,Base (Non Fine-Tuned),0.6057
+SD,llama3_8b,8B,Medium,8,vanilla,Base (Non Fine-Tuned),0.3663
+SD,llama3_8b,8B,Medium,8,vanilla,Base (Non Fine-Tuned),0.4308
+SD,llama3_8b,8B,Medium,8,vanilla,Base (Non Fine-Tuned),0.5263
+SD,llama3_8b,8B,Medium,8,vanilla,Base (Non Fine-Tuned),0.5079
+SD,llama3_8b,8B,Medium,8,vanilla,Base (Non Fine-Tuned),0.4044
+SD,llama3_8b,8B,Medium,8,vanilla,Base (Non Fine-Tuned),0.7678
+SD,llama3_8b,8B,Medium,8,vanilla,Base (Non Fine-Tuned),0.5199
+SD,llama3_8b,8B,Medium,8,vanilla,Base (Non Fine-Tuned),0.2373
+SD,llama3_8b,8B,Medium,8,vanilla,Base (Non Fine-Tuned),0.2746
+SD,llama3_8b,8B,Medium,8,vanilla,Base (Non Fine-Tuned),0.1871
+SD,llama3_8b,8B,Medium,8,vanilla,LoRA Fine-Tuned,0.6402
+SD,llama3_8b,8B,Medium,8,vanilla,LoRA Fine-Tuned,0.8132
+SD,llama3_8b,8B,Medium,8,vanilla,LoRA Fine-Tuned,0.7014
+SD,llama3_8b,8B,Medium,8,vanilla,LoRA Fine-Tuned,0.7244
+SD,llama3_8b,8B,Medium,8,vanilla,LoRA Fine-Tuned,0.9092
+SD,llama3_8b,8B,Medium,8,vanilla,LoRA Fine-Tuned,0.8732
+SD,llama3_8b,8B,Medium,8,vanilla,LoRA Fine-Tuned,0.8077
+SD,llama3_8b,8B,Medium,8,vanilla,LoRA Fine-Tuned,0.7036
+SD,llama3_8b,8B,Medium,8,vanilla,LoRA Fine-Tuned,0.8415
+SD,llama3_8b,8B,Medium,8,vanilla,LoRA Fine-Tuned,0.8619
+SD,llama3_8b,8B,Medium,8,vanilla,LoRA Fine-Tuned,0.721
+SD,llama3_8b,8B,Medium,8,vanilla,LoRA Fine-Tuned,0.7822
+SD,llama3_8b,8B,Medium,8,vanilla,LoRA Fine-Tuned,0.8354
+SD,llama3_8b,8B,Medium,8,vanilla,LoRA Fine-Tuned,0.8318
+SD,llama3_8b,8B,Medium,8,vanilla,LoRA Fine-Tuned,0.8084
+SD,phi,3B,Small,3,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.6798
+SD,phi,3B,Small,3,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.4941
+SD,phi,3B,Small,3,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.3893
+SD,phi,3B,Small,3,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.5212
+SD,phi,3B,Small,3,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.748
+SD,phi,3B,Small,3,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.7873
+SD,phi,3B,Small,3,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.6866
+SD,phi,3B,Small,3,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.5294
+SD,phi,3B,Small,3,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.5898
+SD,phi,3B,Small,3,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.5885
+SD,phi,3B,Small,3,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.5206
+SD,phi,3B,Small,3,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.6855
+SD,phi,3B,Small,3,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.3169
+SD,phi,3B,Small,3,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.3686
+SD,phi,3B,Small,3,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.5888
+SD,phi,3B,Small,3,cot_knowledge_few_shot,LoRA Fine-Tuned,0.7732
+SD,phi,3B,Small,3,cot_knowledge_few_shot,LoRA Fine-Tuned,0.7899
+SD,phi,3B,Small,3,cot_knowledge_few_shot,LoRA Fine-Tuned,0.6534
+SD,phi,3B,Small,3,cot_knowledge_few_shot,LoRA Fine-Tuned,0.8012
+SD,phi,3B,Small,3,cot_knowledge_few_shot,LoRA Fine-Tuned,0.8406
+SD,phi,3B,Small,3,cot_knowledge_few_shot,LoRA Fine-Tuned,0.7903
+SD,phi,3B,Small,3,cot_knowledge_few_shot,LoRA Fine-Tuned,0.8282
+SD,phi,3B,Small,3,cot_knowledge_few_shot,LoRA Fine-Tuned,0.7807
+SD,phi,3B,Small,3,cot_knowledge_few_shot,LoRA Fine-Tuned,0.8229
+SD,phi,3B,Small,3,cot_knowledge_few_shot,LoRA Fine-Tuned,0.8585
+SD,phi,3B,Small,3,cot_knowledge_few_shot,LoRA Fine-Tuned,0.7298
+SD,phi,3B,Small,3,cot_knowledge_few_shot,LoRA Fine-Tuned,0.7493
+SD,phi,3B,Small,3,cot_knowledge_few_shot,LoRA Fine-Tuned,0.849
+SD,phi,3B,Small,3,cot_knowledge_few_shot,LoRA Fine-Tuned,0.7678
+SD,phi,3B,Small,3,cot_knowledge_few_shot,LoRA Fine-Tuned,0.6928
+SD,phi,3B,Small,3,cot_knowledge,Base (Non Fine-Tuned),0.5551
+SD,phi,3B,Small,3,cot_knowledge,Base (Non Fine-Tuned),0.535
+SD,phi,3B,Small,3,cot_knowledge,Base (Non Fine-Tuned),0.7135
+SD,phi,3B,Small,3,cot_knowledge,Base (Non Fine-Tuned),0.1669
+SD,phi,3B,Small,3,cot_knowledge,Base (Non Fine-Tuned),0.6359
+SD,phi,3B,Small,3,cot_knowledge,Base (Non Fine-Tuned),0.5394
+SD,phi,3B,Small,3,cot_knowledge,Base (Non Fine-Tuned),0.5173
+SD,phi,3B,Small,3,cot_knowledge,Base (Non Fine-Tuned),0.61
+SD,phi,3B,Small,3,cot_knowledge,Base (Non Fine-Tuned),0.5589
+SD,phi,3B,Small,3,cot_knowledge,Base (Non Fine-Tuned),0.7901
+SD,phi,3B,Small,3,cot_knowledge,Base (Non Fine-Tuned),0.3
+SD,phi,3B,Small,3,cot_knowledge,Base (Non Fine-Tuned),0.4825
+SD,phi,3B,Small,3,cot_knowledge,Base (Non Fine-Tuned),0.6146
+SD,phi,3B,Small,3,cot_knowledge,Base (Non Fine-Tuned),0.2108
+SD,phi,3B,Small,3,cot_knowledge,Base (Non Fine-Tuned),0.4322
+SD,phi,3B,Small,3,cot_knowledge,LoRA Fine-Tuned,0.8068
+SD,phi,3B,Small,3,cot_knowledge,LoRA Fine-Tuned,0.8016
+SD,phi,3B,Small,3,cot_knowledge,LoRA Fine-Tuned,0.7013
+SD,phi,3B,Small,3,cot_knowledge,LoRA Fine-Tuned,0.8259
+SD,phi,3B,Small,3,cot_knowledge,LoRA Fine-Tuned,0.8689
+SD,phi,3B,Small,3,cot_knowledge,LoRA Fine-Tuned,0.8674
+SD,phi,3B,Small,3,cot_knowledge,LoRA Fine-Tuned,0.8298
+SD,phi,3B,Small,3,cot_knowledge,LoRA Fine-Tuned,0.8146
+SD,phi,3B,Small,3,cot_knowledge,LoRA Fine-Tuned,0.805
+SD,phi,3B,Small,3,cot_knowledge,LoRA Fine-Tuned,0.8403
+SD,phi,3B,Small,3,cot_knowledge,LoRA Fine-Tuned,0.7647
+SD,phi,3B,Small,3,cot_knowledge,LoRA Fine-Tuned,0.5554
+SD,phi,3B,Small,3,cot_knowledge,LoRA Fine-Tuned,0.8289
+SD,phi,3B,Small,3,cot_knowledge,LoRA Fine-Tuned,0.7676
+SD,phi,3B,Small,3,cot_knowledge,LoRA Fine-Tuned,0.7073
+SD,phi,3B,Small,3,cot,Base (Non Fine-Tuned),0.1706
+SD,phi,3B,Small,3,cot,Base (Non Fine-Tuned),0.4526
+SD,phi,3B,Small,3,cot,Base (Non Fine-Tuned),0.6882
+SD,phi,3B,Small,3,cot,Base (Non Fine-Tuned),0.6164
+SD,phi,3B,Small,3,cot,Base (Non Fine-Tuned),0.4539
+SD,phi,3B,Small,3,cot,Base (Non Fine-Tuned),0.4187
+SD,phi,3B,Small,3,cot,Base (Non Fine-Tuned),0.4768
+SD,phi,3B,Small,3,cot,Base (Non Fine-Tuned),0.4497
+SD,phi,3B,Small,3,cot,Base (Non Fine-Tuned),0.5107
+SD,phi,3B,Small,3,cot,Base (Non Fine-Tuned),0.7784
+SD,phi,3B,Small,3,cot,Base (Non Fine-Tuned),0.368
+SD,phi,3B,Small,3,cot,Base (Non Fine-Tuned),0.27
+SD,phi,3B,Small,3,cot,Base (Non Fine-Tuned),0.3698
+SD,phi,3B,Small,3,cot,Base (Non Fine-Tuned),0.2742
+SD,phi,3B,Small,3,cot,Base (Non Fine-Tuned),0.1216
+SD,phi,3B,Small,3,cot,LoRA Fine-Tuned,0.7941
+SD,phi,3B,Small,3,cot,LoRA Fine-Tuned,0.8
+SD,phi,3B,Small,3,cot,LoRA Fine-Tuned,0.6877
+SD,phi,3B,Small,3,cot,LoRA Fine-Tuned,0.8361
+SD,phi,3B,Small,3,cot,LoRA Fine-Tuned,0.8707
+SD,phi,3B,Small,3,cot,LoRA Fine-Tuned,0.9091
+SD,phi,3B,Small,3,cot,LoRA Fine-Tuned,0.8248
+SD,phi,3B,Small,3,cot,LoRA Fine-Tuned,0.7959
+SD,phi,3B,Small,3,cot,LoRA Fine-Tuned,0.8175
+SD,phi,3B,Small,3,cot,LoRA Fine-Tuned,0.8488
+SD,phi,3B,Small,3,cot,LoRA Fine-Tuned,0.7405
+SD,phi,3B,Small,3,cot,LoRA Fine-Tuned,0.5985
+SD,phi,3B,Small,3,cot,LoRA Fine-Tuned,0.8386
+SD,phi,3B,Small,3,cot,LoRA Fine-Tuned,0.8338
+SD,phi,3B,Small,3,cot,LoRA Fine-Tuned,0.7774
+SD,phi,3B,Small,3,few_shot,Base (Non Fine-Tuned),0.2716
+SD,phi,3B,Small,3,few_shot,Base (Non Fine-Tuned),0.7573
+SD,phi,3B,Small,3,few_shot,Base (Non Fine-Tuned),0.5406
+SD,phi,3B,Small,3,few_shot,Base (Non Fine-Tuned),0.5792
+SD,phi,3B,Small,3,few_shot,Base (Non Fine-Tuned),0.6888
+SD,phi,3B,Small,3,few_shot,Base (Non Fine-Tuned),0.5157
+SD,phi,3B,Small,3,few_shot,Base (Non Fine-Tuned),0.6193
+SD,phi,3B,Small,3,few_shot,Base (Non Fine-Tuned),0.5687
+SD,phi,3B,Small,3,few_shot,Base (Non Fine-Tuned),0.6816
+SD,phi,3B,Small,3,few_shot,Base (Non Fine-Tuned),0.7913
+SD,phi,3B,Small,3,few_shot,Base (Non Fine-Tuned),0.2789
+SD,phi,3B,Small,3,few_shot,Base (Non Fine-Tuned),0.5167
+SD,phi,3B,Small,3,few_shot,Base (Non Fine-Tuned),0.6726
+SD,phi,3B,Small,3,few_shot,Base (Non Fine-Tuned),0.3658
+SD,phi,3B,Small,3,few_shot,Base (Non Fine-Tuned),0.5553
+SD,phi,3B,Small,3,few_shot,LoRA Fine-Tuned,0.7381
+SD,phi,3B,Small,3,few_shot,LoRA Fine-Tuned,0.7967
+SD,phi,3B,Small,3,few_shot,LoRA Fine-Tuned,0.6515
+SD,phi,3B,Small,3,few_shot,LoRA Fine-Tuned,0.767
+SD,phi,3B,Small,3,few_shot,LoRA Fine-Tuned,0.8435
+SD,phi,3B,Small,3,few_shot,LoRA Fine-Tuned,0.7685
+SD,phi,3B,Small,3,few_shot,LoRA Fine-Tuned,0.7968
+SD,phi,3B,Small,3,few_shot,LoRA Fine-Tuned,0.7546
+SD,phi,3B,Small,3,few_shot,LoRA Fine-Tuned,0.838
+SD,phi,3B,Small,3,few_shot,LoRA Fine-Tuned,0.86
+SD,phi,3B,Small,3,few_shot,LoRA Fine-Tuned,0.6938
+SD,phi,3B,Small,3,few_shot,LoRA Fine-Tuned,0.7402
+SD,phi,3B,Small,3,few_shot,LoRA Fine-Tuned,0.8279
+SD,phi,3B,Small,3,few_shot,LoRA Fine-Tuned,0.7647
+SD,phi,3B,Small,3,few_shot,LoRA Fine-Tuned,0.7138
+SD,phi,3B,Small,3,knowledge_infused,Base (Non Fine-Tuned),0.1792
+SD,phi,3B,Small,3,knowledge_infused,Base (Non Fine-Tuned),0.5163
+SD,phi,3B,Small,3,knowledge_infused,Base (Non Fine-Tuned),0.698
+SD,phi,3B,Small,3,knowledge_infused,Base (Non Fine-Tuned),0.6322
+SD,phi,3B,Small,3,knowledge_infused,Base (Non Fine-Tuned),0.5058
+SD,phi,3B,Small,3,knowledge_infused,Base (Non Fine-Tuned),0.5567
+SD,phi,3B,Small,3,knowledge_infused,Base (Non Fine-Tuned),0.5678
+SD,phi,3B,Small,3,knowledge_infused,Base (Non Fine-Tuned),0.5635
+SD,phi,3B,Small,3,knowledge_infused,Base (Non Fine-Tuned),0.6378
+SD,phi,3B,Small,3,knowledge_infused,Base (Non Fine-Tuned),0.5135
+SD,phi,3B,Small,3,knowledge_infused,Base (Non Fine-Tuned),0.7898
+SD,phi,3B,Small,3,knowledge_infused,Base (Non Fine-Tuned),0.6629
+SD,phi,3B,Small,3,knowledge_infused,Base (Non Fine-Tuned),0.2928
+SD,phi,3B,Small,3,knowledge_infused,Base (Non Fine-Tuned),0.4745
+SD,phi,3B,Small,3,knowledge_infused,Base (Non Fine-Tuned),0.2245
+SD,phi,3B,Small,3,knowledge_infused,LoRA Fine-Tuned,0.8042
+SD,phi,3B,Small,3,knowledge_infused,LoRA Fine-Tuned,0.7984
+SD,phi,3B,Small,3,knowledge_infused,LoRA Fine-Tuned,0.7027
+SD,phi,3B,Small,3,knowledge_infused,LoRA Fine-Tuned,0.8274
+SD,phi,3B,Small,3,knowledge_infused,LoRA Fine-Tuned,0.8704
+SD,phi,3B,Small,3,knowledge_infused,LoRA Fine-Tuned,0.879
+SD,phi,3B,Small,3,knowledge_infused,LoRA Fine-Tuned,0.8334
+SD,phi,3B,Small,3,knowledge_infused,LoRA Fine-Tuned,0.8434
+SD,phi,3B,Small,3,knowledge_infused,LoRA Fine-Tuned,0.7936
+SD,phi,3B,Small,3,knowledge_infused,LoRA Fine-Tuned,0.8446
+SD,phi,3B,Small,3,knowledge_infused,LoRA Fine-Tuned,0.7636
+SD,phi,3B,Small,3,knowledge_infused,LoRA Fine-Tuned,0.5985
+SD,phi,3B,Small,3,knowledge_infused,LoRA Fine-Tuned,0.8538
+SD,phi,3B,Small,3,knowledge_infused,LoRA Fine-Tuned,0.803
+SD,phi,3B,Small,3,knowledge_infused,LoRA Fine-Tuned,0.7482
+SD,phi,3B,Small,3,vanilla,Base (Non Fine-Tuned),0.1718
+SD,phi,3B,Small,3,vanilla,Base (Non Fine-Tuned),0.4015
+SD,phi,3B,Small,3,vanilla,Base (Non Fine-Tuned),0.6814
+SD,phi,3B,Small,3,vanilla,Base (Non Fine-Tuned),0.4638
+SD,phi,3B,Small,3,vanilla,Base (Non Fine-Tuned),0.454
+SD,phi,3B,Small,3,vanilla,Base (Non Fine-Tuned),0.6292
+SD,phi,3B,Small,3,vanilla,Base (Non Fine-Tuned),0.4052
+SD,phi,3B,Small,3,vanilla,Base (Non Fine-Tuned),0.5198
+SD,phi,3B,Small,3,vanilla,Base (Non Fine-Tuned),0.5093
+SD,phi,3B,Small,3,vanilla,Base (Non Fine-Tuned),0.3868
+SD,phi,3B,Small,3,vanilla,Base (Non Fine-Tuned),0.7803
+SD,phi,3B,Small,3,vanilla,Base (Non Fine-Tuned),0.4169
+SD,phi,3B,Small,3,vanilla,Base (Non Fine-Tuned),0.2246
+SD,phi,3B,Small,3,vanilla,Base (Non Fine-Tuned),0.2938
+SD,phi,3B,Small,3,vanilla,Base (Non Fine-Tuned),0.1532
+SD,phi,3B,Small,3,vanilla,LoRA Fine-Tuned,0.8256
+SD,phi,3B,Small,3,vanilla,LoRA Fine-Tuned,0.8016
+SD,phi,3B,Small,3,vanilla,LoRA Fine-Tuned,0.6803
+SD,phi,3B,Small,3,vanilla,LoRA Fine-Tuned,0.8387
+SD,phi,3B,Small,3,vanilla,LoRA Fine-Tuned,0.8819
+SD,phi,3B,Small,3,vanilla,LoRA Fine-Tuned,0.9065
+SD,phi,3B,Small,3,vanilla,LoRA Fine-Tuned,0.8444
+SD,phi,3B,Small,3,vanilla,LoRA Fine-Tuned,0.8376
+SD,phi,3B,Small,3,vanilla,LoRA Fine-Tuned,0.8129
+SD,phi,3B,Small,3,vanilla,LoRA Fine-Tuned,0.845
+SD,phi,3B,Small,3,vanilla,LoRA Fine-Tuned,0.7291
+SD,phi,3B,Small,3,vanilla,LoRA Fine-Tuned,0.7878
+SD,phi,3B,Small,3,vanilla,LoRA Fine-Tuned,0.8769
+SD,phi,3B,Small,3,vanilla,LoRA Fine-Tuned,0.8343
+SD,phi,3B,Small,3,vanilla,LoRA Fine-Tuned,0.8282
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.559
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.5115
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.4922
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.5684
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.1674
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.1374
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,LoRA Fine-Tuned,0.4024
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,LoRA Fine-Tuned,0.4493
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,LoRA Fine-Tuned,0.5078
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,LoRA Fine-Tuned,0.2947
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,LoRA Fine-Tuned,0.1569
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,cot_knowledge_few_shot,LoRA Fine-Tuned,0.1312
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,knowledge_infused,Base (Non Fine-Tuned),0.2463
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,knowledge_infused,Base (Non Fine-Tuned),0.2065
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,knowledge_infused,Base (Non Fine-Tuned),0.5877
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,knowledge_infused,Base (Non Fine-Tuned),0.5594
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,knowledge_infused,Base (Non Fine-Tuned),0.5835
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,knowledge_infused,Base (Non Fine-Tuned),0.5333
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,knowledge_infused,LoRA Fine-Tuned,0.1932
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,knowledge_infused,LoRA Fine-Tuned,0.3737
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,knowledge_infused,LoRA Fine-Tuned,0.4628
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,knowledge_infused,LoRA Fine-Tuned,0.3697
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,knowledge_infused,LoRA Fine-Tuned,0.1506
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,knowledge_infused,LoRA Fine-Tuned,0.1449
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,cot_knowledge,Base (Non Fine-Tuned),0.5175
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,cot_knowledge,Base (Non Fine-Tuned),0.4928
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,cot_knowledge,Base (Non Fine-Tuned),0.5313
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,cot_knowledge,Base (Non Fine-Tuned),0.5488
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,cot_knowledge,Base (Non Fine-Tuned),0.318
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,cot_knowledge,Base (Non Fine-Tuned),0.232
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,cot_knowledge,LoRA Fine-Tuned,0.2221
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,cot_knowledge,LoRA Fine-Tuned,0.3421
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,cot_knowledge,LoRA Fine-Tuned,0.489
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,cot_knowledge,LoRA Fine-Tuned,0.4081
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,cot_knowledge,LoRA Fine-Tuned,0.1515
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,cot_knowledge,LoRA Fine-Tuned,0.1633
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,few_shot,Base (Non Fine-Tuned),0.5476
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,few_shot,Base (Non Fine-Tuned),0.564
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,few_shot,Base (Non Fine-Tuned),0.4518
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,few_shot,Base (Non Fine-Tuned),0.6243
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,few_shot,Base (Non Fine-Tuned),0.3003
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,few_shot,Base (Non Fine-Tuned),0.2469
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,few_shot,LoRA Fine-Tuned,0.3789
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,few_shot,LoRA Fine-Tuned,0.4403
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,few_shot,LoRA Fine-Tuned,0.3467
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,few_shot,LoRA Fine-Tuned,0.5249
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,few_shot,LoRA Fine-Tuned,0.1824
+$SD_{CT}$ + $SD_{CD}$,llama3_8b,8B,Medium,8,few_shot,LoRA Fine-Tuned,0.1311
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.5227
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.4151
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.3087
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.5286
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.522
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.4452
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,cot_knowledge_few_shot,LoRA Fine-Tuned,0.4516
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,cot_knowledge_few_shot,LoRA Fine-Tuned,0.4414
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,cot_knowledge_few_shot,LoRA Fine-Tuned,0.4079
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,cot_knowledge_few_shot,LoRA Fine-Tuned,0.33
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,cot_knowledge_few_shot,LoRA Fine-Tuned,0.1281
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,cot_knowledge_few_shot,LoRA Fine-Tuned,0.1549
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,cot_knowledge,Base (Non Fine-Tuned),0.5603
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,cot_knowledge,Base (Non Fine-Tuned),0.4169
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,cot_knowledge,Base (Non Fine-Tuned),0.4797
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,cot_knowledge,Base (Non Fine-Tuned),0.4272
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,cot_knowledge,Base (Non Fine-Tuned),0.3126
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,cot_knowledge,Base (Non Fine-Tuned),0.4999
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,cot_knowledge,LoRA Fine-Tuned,0.3606
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,cot_knowledge,LoRA Fine-Tuned,0.4715
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,cot_knowledge,LoRA Fine-Tuned,0.3691
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,cot_knowledge,LoRA Fine-Tuned,0.3359
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,cot_knowledge,LoRA Fine-Tuned,0.1288
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,cot_knowledge,LoRA Fine-Tuned,0.1704
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,few_shot,Base (Non Fine-Tuned),0.5328
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,few_shot,Base (Non Fine-Tuned),0.439
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,few_shot,Base (Non Fine-Tuned),0.2373
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,few_shot,Base (Non Fine-Tuned),0.5243
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,few_shot,Base (Non Fine-Tuned),0.4767
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,few_shot,Base (Non Fine-Tuned),0.3676
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,few_shot,LoRA Fine-Tuned,0.4463
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,few_shot,LoRA Fine-Tuned,0.4596
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,few_shot,LoRA Fine-Tuned,0.3674
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,few_shot,LoRA Fine-Tuned,0.2906
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,few_shot,LoRA Fine-Tuned,0.1289
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,few_shot,LoRA Fine-Tuned,0.1785
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,knowledge_infused,Base (Non Fine-Tuned),0.5595
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,knowledge_infused,Base (Non Fine-Tuned),0.5002
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,knowledge_infused,Base (Non Fine-Tuned),0.4262
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,knowledge_infused,Base (Non Fine-Tuned),0.3332
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,knowledge_infused,Base (Non Fine-Tuned),0.4794
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,knowledge_infused,Base (Non Fine-Tuned),0.446
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,knowledge_infused,LoRA Fine-Tuned,0.4161
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,knowledge_infused,LoRA Fine-Tuned,0.4829
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,knowledge_infused,LoRA Fine-Tuned,0.3645
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,knowledge_infused,LoRA Fine-Tuned,0.3376
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,knowledge_infused,LoRA Fine-Tuned,0.129
+$SD_{CT}$ + $SD_{CD}$,phi,3B,Small,3,knowledge_infused,LoRA Fine-Tuned,0.1636
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.4882
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.4927
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.5103
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.5084
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.4476
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.2798
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,LoRA Fine-Tuned,0.3703
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,LoRA Fine-Tuned,0.2903
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,LoRA Fine-Tuned,0.5462
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,LoRA Fine-Tuned,0.3114
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,LoRA Fine-Tuned,0.1485
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,cot_knowledge_few_shot,LoRA Fine-Tuned,0.1286
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,knowledge_infused,Base (Non Fine-Tuned),0.1807
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,knowledge_infused,Base (Non Fine-Tuned),0.3989
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,knowledge_infused,Base (Non Fine-Tuned),0.3076
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,knowledge_infused,Base (Non Fine-Tuned),0.4979
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,knowledge_infused,Base (Non Fine-Tuned),0.208
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,knowledge_infused,Base (Non Fine-Tuned),0.2581
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,knowledge_infused,LoRA Fine-Tuned,0.2608
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,knowledge_infused,LoRA Fine-Tuned,0.5233
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,knowledge_infused,LoRA Fine-Tuned,0.2888
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,knowledge_infused,LoRA Fine-Tuned,0.2558
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,knowledge_infused,LoRA Fine-Tuned,0.1611
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,knowledge_infused,LoRA Fine-Tuned,0.1288
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,cot_knowledge,Base (Non Fine-Tuned),0.2285
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,cot_knowledge,Base (Non Fine-Tuned),0.3912
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,cot_knowledge,Base (Non Fine-Tuned),0.4356
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,cot_knowledge,Base (Non Fine-Tuned),0.4787
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,cot_knowledge,Base (Non Fine-Tuned),0.2013
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,cot_knowledge,Base (Non Fine-Tuned),0.3244
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,cot_knowledge,LoRA Fine-Tuned,0.5107
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,cot_knowledge,LoRA Fine-Tuned,0.2849
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,cot_knowledge,LoRA Fine-Tuned,0.3119
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,cot_knowledge,LoRA Fine-Tuned,0.312
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,cot_knowledge,LoRA Fine-Tuned,0.166
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,cot_knowledge,LoRA Fine-Tuned,0.1288
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,few_shot,Base (Non Fine-Tuned),0.5141
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,few_shot,Base (Non Fine-Tuned),0.5167
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,few_shot,Base (Non Fine-Tuned),0.5114
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,few_shot,Base (Non Fine-Tuned),0.4965
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,few_shot,Base (Non Fine-Tuned),0.3168
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,few_shot,Base (Non Fine-Tuned),0.3138
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,few_shot,LoRA Fine-Tuned,0.3115
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,few_shot,LoRA Fine-Tuned,0.2506
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,few_shot,LoRA Fine-Tuned,0.5551
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,few_shot,LoRA Fine-Tuned,0.399
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,few_shot,LoRA Fine-Tuned,0.1485
+$SD_{CT}$ + $SD_{CD}$,mistral_7b,7B,Medium,7,few_shot,LoRA Fine-Tuned,0.1285
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,cot_knowledge,Base (Non Fine-Tuned),0.3315
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,cot_knowledge,Base (Non Fine-Tuned),0.3
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,cot_knowledge,Base (Non Fine-Tuned),0.5063
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,cot_knowledge,Base (Non Fine-Tuned),0.1521
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,cot_knowledge,Base (Non Fine-Tuned),0.1531
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,cot_knowledge,Base (Non Fine-Tuned),0.144
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,cot_knowledge,LoRA Fine-Tuned,0.295
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,cot_knowledge,LoRA Fine-Tuned,0.2627
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,cot_knowledge,LoRA Fine-Tuned,0.5409
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,cot_knowledge,LoRA Fine-Tuned,0.2492
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,cot_knowledge,LoRA Fine-Tuned,0.1485
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,cot_knowledge,LoRA Fine-Tuned,0.1293
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.2514
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.3587
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.5251
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.1487
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.1384
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,cot_knowledge_few_shot,Base (Non Fine-Tuned),0.1291
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,cot_knowledge_few_shot,LoRA Fine-Tuned,0.3122
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,cot_knowledge_few_shot,LoRA Fine-Tuned,0.4637
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,cot_knowledge_few_shot,LoRA Fine-Tuned,0.2861
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,cot_knowledge_few_shot,LoRA Fine-Tuned,0.2363
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,cot_knowledge_few_shot,LoRA Fine-Tuned,0.1487
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,cot_knowledge_few_shot,LoRA Fine-Tuned,0.1286
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,few_shot,Base (Non Fine-Tuned),0.6306
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,few_shot,Base (Non Fine-Tuned),0.4864
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,few_shot,Base (Non Fine-Tuned),0.6605
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,few_shot,Base (Non Fine-Tuned),0.3728
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,few_shot,Base (Non Fine-Tuned),0.4136
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,few_shot,Base (Non Fine-Tuned),0.3159
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,few_shot,LoRA Fine-Tuned,0.2746
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,few_shot,LoRA Fine-Tuned,0.5079
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,few_shot,LoRA Fine-Tuned,0.277
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,few_shot,LoRA Fine-Tuned,0.3864
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,few_shot,LoRA Fine-Tuned,0.1549
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,few_shot,LoRA Fine-Tuned,0.1289
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,knowledge_infused,Base (Non Fine-Tuned),0.3648
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,knowledge_infused,Base (Non Fine-Tuned),0.5142
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,knowledge_infused,Base (Non Fine-Tuned),0.2698
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,knowledge_infused,Base (Non Fine-Tuned),0.112
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,knowledge_infused,Base (Non Fine-Tuned),0.1598
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,knowledge_infused,Base (Non Fine-Tuned),0.1552
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,knowledge_infused,LoRA Fine-Tuned,0.2869
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,knowledge_infused,LoRA Fine-Tuned,0.5599
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,knowledge_infused,LoRA Fine-Tuned,0.2544
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,knowledge_infused,LoRA Fine-Tuned,0.2904
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,knowledge_infused,LoRA Fine-Tuned,0.1546
+$SD_{CT}$ + $SD_{CD}$,mistral_24b,24B,Large,24,knowledge_infused,LoRA Fine-Tuned,0.1293

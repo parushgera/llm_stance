@@ -1,0 +1,9 @@
+,phase,model,model_size,model_params,model_category,avg_best_f1,std_f1,target_count,formatted_performance,size_performance_correlation,correlation_interpretation
+0,phase1,llama3_8b,8B,8,Medium,0.6329533333333334,0.11098921998275753,15,0.6330 ± 0.1110 (across 15 targets),0.9635076531056473,Strong positive: Larger models perform better
+1,phase1,mistral_24b,24B,24,Large,0.6991066666666667,0.10576525534453761,15,0.6991 ± 0.1058 (across 15 targets),0.9635076531056473,Strong positive: Larger models perform better
+2,phase1,mistral_7b,7B,7,Medium,0.62486,0.11638617247275185,15,0.6249 ± 0.1164 (across 15 targets),0.9635076531056473,Strong positive: Larger models perform better
+3,phase1,phi,3B,3,Small,0.5782,0.1380789422240563,15,0.5782 ± 0.1381 (across 15 targets),0.9635076531056473,Strong positive: Larger models perform better
+4,phase3,llama3_8b,8B,8,Medium,0.80652,0.06319933543954397,15,0.8065 ± 0.0632 (across 15 targets),0.4832952092264193,Moderate correlation
+5,phase3,mistral_24b,24B,24,Large,0.8566666666666667,0.06224566154321424,15,0.8567 ± 0.0622 (across 15 targets),0.4832952092264193,Moderate correlation
+6,phase3,mistral_7b,7B,7,Medium,0.8575533333333334,0.06778698638978962,15,0.8576 ± 0.0678 (across 15 targets),0.4832952092264193,Moderate correlation
+7,phase3,phi,3B,3,Small,0.8291533333333334,0.05047188562056344,15,0.8292 ± 0.0505 (across 15 targets),0.4832952092264193,Moderate correlation

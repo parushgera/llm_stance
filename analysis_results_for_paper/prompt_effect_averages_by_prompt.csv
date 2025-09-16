@@ -1,0 +1,13 @@
+,,improvement,improvement,improvement,improvement_pct,improvement_pct,phase1_mean_f1,phase3_mean_f1
+,,mean,std,count,mean,std,mean,mean
+experiment_type,prompt_type,,,,,,,
+cross_target,cot_knowledge,-0.0793,0.0772,3,-18.4029,18.3052,0.3685,0.2893
+cross_target,cot_knowledge_few_shot,-0.0843,0.0771,3,-18.7516,17.6383,0.382,0.2977
+cross_target,few_shot,-0.1478,0.0389,3,-32.3572,6.6664,0.4533,0.3055
+cross_target,knowledge_infused,-0.0766,0.0828,3,-17.3781,20.6053,0.3669,0.2903
+in_target,cot,0.3598,0.0142,3,80.7066,7.0504,0.4472,0.807
+in_target,cot_knowledge,0.2503,0.0296,3,45.9513,9.0357,0.5509,0.8012
+in_target,cot_knowledge_few_shot,0.1628,0.0465,3,26.5449,10.2741,0.6293,0.7921
+in_target,few_shot,0.1992,0.0117,3,33.8912,3.1343,0.5893,0.7886
+in_target,knowledge_infused,0.2358,0.0398,3,42.1277,10.7019,0.5682,0.8041
+in_target,vanilla,0.3651,0.0243,3,81.014,9.4566,0.4525,0.8176

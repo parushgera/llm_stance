@@ -1,0 +1,17 @@
+,model,params,category,phase,experiment,avg_best_f1
+0,llama3_8b,8,Medium,phase1,in_target,0.6329533333333334
+1,mistral_24b,24,Large,phase1,in_target,0.6991066666666667
+2,mistral_7b,7,Medium,phase1,in_target,0.62486
+3,phi,3,Small,phase1,in_target,0.5782
+4,llama3_8b,8,Medium,phase3,in_target,0.80652
+5,mistral_24b,24,Large,phase3,in_target,0.8566666666666667
+6,mistral_7b,7,Medium,phase3,in_target,0.8575533333333334
+7,phi,3,Small,phase3,in_target,0.8291533333333334
+8,llama3_8b,8,Medium,phase1,cross_target,0.4874
+9,mistral_24b,24,Large,phase1,cross_target,0.48641666666666666
+10,mistral_7b,7,Medium,phase1,cross_target,0.4691666666666667
+11,phi,3,Small,phase1,cross_target,0.48055000000000003
+12,llama3_8b,8,Medium,phase3,cross_target,0.35528333333333334
+13,mistral_24b,24,Large,phase3,cross_target,0.3048
+14,mistral_7b,7,Medium,phase3,cross_target,0.30851666666666666
+15,phi,3,Small,phase3,cross_target,0.33125

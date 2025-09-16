@@ -1,0 +1,13 @@
+,phase,rank,prompt_type,complexity,avg_f1_score
+0,phase1,1,cot_knowledge_few_shot,6,0.6278766666666667
+1,phase1,2,few_shot,4,0.5883533333333334
+2,phase1,3,knowledge_infused,2,0.5667016666666667
+3,phase1,4,cot_knowledge,5,0.547945
+4,phase1,5,vanilla,1,0.45076166666666667
+5,phase1,6,cot,3,0.4458433333333333
+6,phase3,1,vanilla,1,0.8159016666666666
+7,phase3,2,cot,3,0.8071316666666667
+8,phase3,3,knowledge_infused,2,0.8020133333333334
+9,phase3,4,cot_knowledge,5,0.800315
+10,phase3,5,cot_knowledge_few_shot,6,0.7862266666666666
+11,phase3,6,few_shot,4,0.7844816666666666

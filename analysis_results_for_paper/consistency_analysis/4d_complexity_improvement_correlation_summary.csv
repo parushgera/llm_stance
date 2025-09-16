@@ -1,0 +1,5 @@
+,Analysis,Result
+0,Complexity-Improvement Correlation,-0.6785
+1,Correlation Value,-0.6785
+2,Interpretation,Strong negative relationship
+3,Trend Direction,Complex prompts benefit less from LoRA
