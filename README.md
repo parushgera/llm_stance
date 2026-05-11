@@ -308,4 +308,4 @@ proceedings are published:
 ## Contact
 
 Questions, issues, or reproduction problems: please open a GitHub issue or
-email **parush@usf.edu** (Parush Gera).
+email **parush.edu@gmail.com** (Parush Gera).
