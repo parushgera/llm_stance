@@ -1,8 +1,37 @@
-# Jupyter Notebook checkpoints
+# --- Caches & build artifacts ---
+__pycache__/
+*.py[cod]
+*.egg-info/
 .ipynb_checkpoints/
 
-# Python cache files
-__pycache__/
-
-# macOS-specific files
+# --- macOS / editor noise ---
 .DS_Store
+
+# --- Virtual environments ---
+venv/
+env/
+.venv/
+
+# --- Cursor / agent-only files (kept locally, not pushed) ---
+.cursor/
+AGENTS.md
+
+# --- SLURM logs (kept locally for debugging, not pushed) ---
+std_out_*
+std_err_*
+slurm-*.out
+
+# NOTE: `results/` is intentionally tracked in this repo so the raw outputs
+# of the 912 experiments are reproducible without rerunning the pipeline.
+
+# --- Archive: legacy / one-off material kept locally only ---
+# Includes wtwt_prompt_fix_reruns/ (~2.3 GB of intermediate fix-up CSVs).
+archive/
+
+# --- Local-only working folders (not part of the *SEM 2026 paper) ---
+political-bias/
+dissertation/
+
+# --- HuggingFace + LoRA caches (huge; live outside the repo by default) ---
+hf_cache/
+lora_adapters/
