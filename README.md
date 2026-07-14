@@ -1,17 +1,17 @@
 # Diagnosing Generalization in Open-Source LLMs for Stance Detection
 
-> ⚠️ **Working repository.** The associated paper is accepted but not yet
-> published; the BibTeX entry below is a placeholder and will be replaced
-> with the official citation once proceedings are released. The paper PDF
-> is **not** redistributed in this repository.
-
 This repository contains the code, prompts, LoRA configurations, and analysis
 artefacts for the paper:
 
 > **Diagnosing Generalization in Open-Source LLMs for Stance Detection.**
 > Parush Gera and Tempestt Neal.
 > *Proceedings of the 15th Joint Conference on Lexical and Computational
-> Semantics (\*SEM 2026), co-located with ACL 2026.*
+> Semantics (\*SEM 2026)*, pages 317–330, San Diego, California, United States.
+> Association for Computational Linguistics.
+> [aclanthology.org/2026.starsem-conference.21](https://aclanthology.org/2026.starsem-conference.21/)
+>
+> The paper PDF is **not** redistributed in this repository — please refer to
+> the official \*SEM 2026 proceedings.
 
 The paper is a **diagnostic study** of four open-source instruction-tuned
 LLMs (Phi-3-mini-3.8B, Mistral-7B, Llama-3-8B, Mistral-Small-24B), evaluated
@@ -291,17 +291,25 @@ sbatch scripts/parse_mistral_24b.sh
 
 ## Citation
 
-A placeholder — to be replaced with the official BibTeX entry once \*SEM 2026
-proceedings are published:
+If you use this code, the prompt templates, or the LoRA / evaluation
+artefacts, please cite:
 
 ```bibtex
-@inproceedings{gera2026diagnosing,
-  title     = {Diagnosing Generalization in Open-Source LLMs for Stance Detection},
-  author    = {Gera, Parush and Neal, Tempestt},
-  booktitle = {Proceedings of the 15th Joint Conference on Lexical and
-               Computational Semantics (*SEM 2026)},
-  note      = {Co-located with ACL 2026},
-  year      = {2026}
+@inproceedings{gera-neal-2026-diagnosing,
+    title = "Diagnosing Generalization in Open-Source {LLM}s for Stance Detection",
+    author = "Gera, Parush  and
+      Neal, Tempestt",
+    editor = "Mohammad, Saif M.  and
+      Ousidhoum, Nedjma",
+    booktitle = "Proceedings of the 15th Joint Conference on Lexical and Computational Semantics (*{SEM} 2026)",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.starsem-conference.21/",
+    doi = "10.18653/v1/2026.starsem-conference.21",
+    pages = "317--330",
+    ISBN = "979-8-89176-413-2",
 }
 ```
 
